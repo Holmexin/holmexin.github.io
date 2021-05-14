@@ -6,22 +6,21 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://holmexin.github.io">
-  <title>Holmexin</title>
+  <title>Linux笔记 | Holmexin</title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-    
-    <!-- <meta name="keywords" content="">
-    <meta name="description" content="个人博客"> -->
-  
-  <meta name="description" content="个人博客">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Holmexin">
-<meta property="og:url" content="https://holmexin.github.io/index.html">
+  <meta name="description" content="目录结构   &#x2F;bin： bin是Binary的缩写, 这个目录存放着最经常使用的命令。 &#x2F;boot： 这里存放的是启动Linux时使用的一些核心文件，包括一些连接文件以及镜像文件。 &#x2F;dev ： dev是Device(设备)的缩写, 存放的是Linux的外部设备，在Linux中访问设备的方式和访问文件的方式是相同的。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Linux笔记">
+<meta property="og:url" content="https://holmexin.github.io/2021/05/14/Linux%E7%AC%94%E8%AE%B0/index.html">
 <meta property="og:site_name" content="Holmexin">
-<meta property="og:description" content="个人博客">
+<meta property="og:description" content="目录结构   &#x2F;bin： bin是Binary的缩写, 这个目录存放着最经常使用的命令。 &#x2F;boot： 这里存放的是启动Linux时使用的一些核心文件，包括一些连接文件以及镜像文件。 &#x2F;dev ： dev是Device(设备)的缩写, 存放的是Linux的外部设备，在Linux中访问设备的方式和访问文件的方式是相同的。">
 <meta property="og:locale">
+<meta property="article:published_time" content="2021-05-14T01:58:10.000Z">
+<meta property="article:modified_time" content="2021-05-14T06:22:28.599Z">
 <meta property="article:author" content="Holmexin">
+<meta property="article:tag" content="Linux">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="Holmexin" type="application/atom+xml">
@@ -189,19 +188,14 @@
               class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-
-  
-    <article id="post-Linux笔记" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+            <article id="post-Linux笔记" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
   
   
-    <h1 itemprop="name">
-	
-	  <a class="article-title" href="/2021/05/14/Linux%E7%AC%94%E8%AE%B0/">Linux笔记</a>
-	
+    <h1 class="article-title" itemprop="name">
+      Linux笔记
     </h1>
   
 
@@ -215,6 +209,27 @@
   
   
     
+<div style="margin-top:10px;">
+  <span class="post-time">
+    <span class="post-meta-item-icon">
+      <!-- fonts.scss -->
+      <!-- 百度字体平台:http://fontstore.baidu.com/static/editor/index.html -->
+      <i class="icon-statistics"></i>
+      <span class="post-meta-item-text"> 字数统计:</span>
+      <span class="post-count">2.4k字</span>
+    </span>
+  </span>
+
+  <span class="post-time">
+    &nbsp; | &nbsp;
+    <span class="post-meta-item-icon">
+      <i class="icon-book icon"></i>
+      <span class="post-meta-item-text"> 阅读时长≈</span>
+      <span class="post-count">8分</span>
+    </span>
+  </span>
+</div>
+
 
   
   </header>
@@ -229,13 +244,188 @@
 <li>/boot： 这里存放的是启动Linux时使用的一些核心文件，包括一些连接文件以及镜像文件。</li>
 <li>/dev ： dev是Device(设备)的缩写, 存放的是Linux的外部设备，在Linux中访问设备的方式和访问文件的方式是相同的。</li>
 </ul>
-    
-    <a class="article-more-a" href="/2021/05/14/Linux%E7%AC%94%E8%AE%B0/#more">more >></a>
-    
-    
+<span id="more"></span>
+
+<ul>
+<li>/etc： 这个目录用来存放所有的系统管理所需要的配置文件和子目录。</li>
+<li>/home：用户的主目录，在Linux中，每个用户都有一个自己的目录，一般该目录名是以用户的账号命名的。</li>
+<li>/lib： 这个目录里存放着系统最基本的动态连接共享库，其作用类似于Windows里的DLL文件。</li>
+<li>/media：linux系统会自动识别一些设备，例如U盘、光驱等等，当识别后，linux会把识别的设备挂载到这个目录下。</li>
+<li>/opt：这是给主机额外安装软件所摆放的目录。比如你安装一个ORACLE数据库则就可以放到这个目录下。默认是空的。</li>
+<li>/proc： 这个目录是一个虚拟的目录，它是系统内存的映射，我们可以通过直接访问这个目录来获取系统信息。</li>
+<li>/root：该目录为系统管理员，也称作超级权限者的用户主目录。</li>
+<li>/usr：这是一个非常重要的目录，用户的很多应用程序和文件都放在这个目录下，类似于windows下的program files目录。</li>
+<li>/usr/bin： 系统用户使用的应用程序。</li>
+<li>/usr/sbin： 超级用户使用的比较高级的管理程序和系统守护程序。</li>
+<li>/usr/src： 内核源代码默认的放置目录。</li>
+<li>/var：这个目录中存放着在不断扩充着的东西，我们习惯将那些经常被修改的目录放在这个目录下。包括各种日志文件。</li>
+</ul>
+<h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><blockquote>
+<p>处理目录</p>
+</blockquote>
+<ul>
+<li>ls: 列出目录</li>
+<li>cd：切换目录</li>
+<li>pwd：显示目前的目录</li>
+<li>mkdir：创建一个新的目录  </li>
+<li>rmdir：删除一个空的目录</li>
+<li>cp: 复制文件或目录</li>
+<li>rm: 移除文件或目录</li>
+<li>mv: 移动文件与目录，或修改文件与目录的名称  </li>
+</ul>
+<blockquote>
+<p>ls</p>
+</blockquote>
+<p><strong>选项与参数：</strong>(可组合使用)</p>
+<ul>
+<li>-a ：全部的文件，连同隐藏文件( 开头为 . 的文件) 一起列出来(常用)</li>
+<li>-l ：长数据串列出，包含文件的属性与权限等等数据；(常用)  </li>
+</ul>
+<blockquote>
+<p>rm</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm [-fir] 文件或目录</span><br></pre></td></tr></table></figure>
+
+<p><strong>选项与参数：</strong></p>
+<ul>
+<li>-f ：就是 force 的意思，忽略不存在的文件，不会出现警告信息</li>
+<li>-i ：互动模式，在删除前会询问使用者是否动作</li>
+<li>-r ：递归删除 </li>
+</ul>
+<h2 id="基本属性"><a href="#基本属性" class="headerlink" title="基本属性"></a>基本属性</h2><p>Linux系统是一种典型的多用户系统，不同的用户处于不同的地位，拥有不同的权限。为了保护系统的安全性，Linux系统对不同的用户访问同一文件（包括目录文件）的权限做了不同的规定。  </p>
+<p>在Linux中第一个字符代表这个文件是目录、文件或链接文件等等：</p>
+<ul>
+<li>当为[ d ]则是目录</li>
+<li>当为[ - ]则是文件；</li>
+<li>若是[ l ]则表示为链接文档 ( link file )；</li>
+<li>若是[ b ]则表示为装置文件里面的可供储存的接口设备 ( 可随机存取装置 )；</li>
+<li>若是[ c ]则表示为装置文件里面的串行端口设备，例如键盘、鼠标 ( 一次性读取装置 )。</li>
+</ul>
+<p>接下来的字符中，以三个为一组，且均为『rwx』 的三个参数的组合。</p>
+<p>其中，[ r ]代表可读(read)、[ w ]代表可写(write)、[ x ]代表可执行(execute)。</p>
+<p>要注意的是，这三个权限的位置不会改变，如果没有权限，就会出现减号[ - ]而已。  </p>
+<h2 id="文件内容查看"><a href="#文件内容查看" class="headerlink" title="文件内容查看"></a>文件内容查看</h2><p>Linux系统中使用以下命令来查看文件的内容：</p>
+<ul>
+<li>cat 由第一行开始显示文件内容</li>
+<li>tac 从最后一行开始显示</li>
+<li>nl 显示的时候，顺道输出行号</li>
+<li>more 一页一页的显示文件内容</li>
+<li>less 与 more 类似，但是比 more 更好的是，他可以往前翻页</li>
+<li>head 只看头几行</li>
+<li>tail 只看尾巴几行</li>
+</ul>
+<p>可以使用 man [命令]来查看各个命令的使用文档，如 ：man cp  </p>
+<blockquote>
+<p> less</p>
+</blockquote>
+<p>less运行时可以输入的命令有：</p>
+<ul>
+<li>空白键 ：向下翻动一页；</li>
+<li>[pagedown]：向下翻动一页；</li>
+<li>[pageup] ：向上翻动一页；</li>
+<li>/字串 ：向下搜寻『字串』的功能；</li>
+<li>?字串 ：向上搜寻『字串』的功能；</li>
+<li>n ：重复前一个搜寻 (与 / 或 ? 有关)</li>
+<li>N ：反向的重复前一个搜寻 (与 / 或 ? 有关)</li>
+<li>q ：离开 less 这个程序</li>
+</ul>
+<blockquote>
+<p>Linux链接</p>
+</blockquote>
+<p><strong>硬连接</strong></p>
+<p>硬连接指通过索引节点来进行连接。硬连接的作用是允许一个文件拥有多个有效路径名，这样用户就可以建立硬连接到重要文件，以防止“误删”的功能。因为对应该目录的索引节点有一个以上的连接。只删除一个连接并不影响索引节点本身和其它的连接，只有当最后一个连接被删除后，文件的数据块及目录的连接才会被释放。也就是说，文件真正删除的条件是与之相关的所有硬连接文件均被删除。</p>
+<p><strong>软连接</strong></p>
+<p>另外一种连接称之为符号连接（Symbolic Link），也叫软连接。软链接文件有类似于 Windows 的快捷方式。它实际上是一个特殊的文件。在符号连接中，文件实际上是一个文本文件，其中包含的有另一文件的位置信息。A 的数据块中存放的只是 B 的路径名（可以根据这个找到 B 的目录项）。A 和 B 之间是“主从”关系，如果 B 被删除了，A 仍然存在（因为两个是不同的文件），但指向的是一个无效的链接。  </p>
+<h2 id="Vim"><a href="#Vim" class="headerlink" title="Vim"></a>Vim</h2><p>Vim是从 vi 发展出来的一个文本编辑器。代码补完、编译及错误跳转等方便编程的功能特别丰富，在程序员中被广泛使用。  </p>
+<blockquote>
+<p>三种使用模式</p>
+</blockquote>
+<p>基本上 vi/vim 共分为三种模式，分别是命令模式（Command mode），输入模式（Insert mode）和底线命令模式（Last line mode）。 这三种模式的作用分别是：  </p>
+<p><strong>命令模式：</strong></p>
+<p>用户刚刚启动 vi/vim，便进入了命令模式。  </p>
+<p>此状态下敲击键盘动作会被Vim识别为命令，而非输入字符。比如我们此时按下i，并不会输入一个字符，i被当作了一个命令。</p>
+<p>以下是常用的几个命令：</p>
+<ul>
+<li>i 切换到输入模式，以输入字符。</li>
+<li>x 删除当前光标所在处的字符。</li>
+<li>: 切换到底线命令模式，以在最底一行输入命令。</li>
+</ul>
+<p>若想要编辑文本：启动Vim，进入了命令模式，按下i，切换到输入模式。</p>
+<p>命令模式只有一些最基本的命令，因此仍要依靠底线命令模式输入更多命令。</p>
+<p><strong>输入模式：</strong></p>
+<p>在命令模式下按下i就进入了输入模式。</p>
+<p>在输入模式中，可以使用以下按键：</p>
+<ul>
+<li>字符按键以及Shift组合，输入字符</li>
+<li>ENTER，回车键，换行</li>
+<li>BACK SPACE，退格键，删除光标前一个字符</li>
+<li>DEL，删除键，删除光标后一个字符</li>
+<li>方向键，在文本中移动光标</li>
+<li>HOME/END，移动光标到行首/行尾</li>
+<li>Page Up/Page Down，上/下翻页</li>
+<li>Insert，切换光标为输入/替换模式，光标将变成竖线/下划线</li>
+<li>ESC，退出输入模式，切换到命令模式</li>
+</ul>
+<p><strong>底线命令模式：</strong></p>
+<p>在命令模式下按下:（英文冒号）就进入了底线命令模式。</p>
+<p>底线命令模式可以输入单个或多个字符的命令，可用的命令非常多。</p>
+<p>在底线命令模式中，基本的命令有（已经省略了冒号）：</p>
+<ul>
+<li>q 退出程序</li>
+<li>w 保存文件</li>
+</ul>
+<p>按ESC键可随时退出底线命令模式。  </p>
+<h2 id="进程管理"><a href="#进程管理" class="headerlink" title="进程管理"></a>进程管理</h2><blockquote>
+<p>概述</p>
+</blockquote>
+<p>1、在LINUX中，每个执行的程序（代码）都称为一个进程。每一个进程都分配一个ID号。</p>
+<p>2、每一个进程，都会对应一个父进程，而这个父进程可以复制多个子进程。</p>
+<p>3、 每个进程都可能以两种方式存在的。前台与后台，所谓前台进程就是用户目前的屏幕上可以进行操作的。后台进程则是实际在操作，但由于屏幕上无法看到的进程，通常使用后台方式执行。</p>
+<p>4、一般系统的服务都是以后台进程的方式存在，而且都会常驻在系统中。直到关机才才结束  </p>
+<blockquote>
+<p>ps</p>
+</blockquote>
+<p>使用ps指令即可查看当前系统中正在执行的进程的各种进程信息</p>
+<p><strong>基本语法</strong></p>
+<p>ps –选项</p>
+<p><strong>选项说明：</strong></p>
+<ul>
+<li>-a：显示当前终端的所有进程信息</li>
+<li>-u：以用户的形式显示进程信息</li>
+<li>-x：显示后台进程运行的参数  </li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ps -aux|grep xxx ，查看某个服务的进程 如，ps -aux|grep mysql</span><br></pre></td></tr></table></figure>
+
+<p>1、grep 命令用于查找文件里符合条件的字符串。</p>
+<p>2、命令格式：命令A|命令B，即命令A的正确输出作为命令B的操作对象  </p>
+<p><strong>使用 ps -ef可查看父进程</strong></p>
+<p>ps -ef是以全格式显示当前所有的进程</p>
+<p>-e 显示所有进程。-f 全格式。  </p>
 
     
 
+    
+
+    
+    <div class="declare"> 
+      <ul class="post-copyright">
+        <li>
+          <strong>本文作者：</strong>
+          Holmexin
+        </li>
+        <li>
+          <strong>本文链接：</strong>
+          <a href="https://holmexin.github.io/2021/05/14/Linux笔记/" title="Linux笔记" target="_blank">https://holmexin.github.io/2021/05/14/Linux笔记/</a>
+        </li>
+        
+        <li>
+          <strong>版权声明： </strong>
+          
+          本博客所有文章除特别声明外，均采用 <a href="https://github.com/JoeyBling/hexo-theme-yilia-plus/blob/master/LICENSE" rel="external nofollow" target="_blank">MIT</a> 许可协议。转载请注明出处！
+        </li>
+        
+      </ul>
+    </div>
     
 
   </div>
@@ -256,16 +446,76 @@
     
 
     
-    <p class="article-more-link">
-      <a class="article-more-a" href="/2021/05/14/Linux%E7%AC%94%E8%AE%B0/">阅读全文 >></a>
-    </p>
+
     
+    
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <!-- <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a> -->
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+     <!-- <img src="//pan.baidu.com/share/qrcode?url=https://holmexin.github.io/2021/05/14/Linux%E7%AC%94%E8%AE%B0/" alt="微信分享二维码"> -->
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
 
     
     <div class="clearfix"></div>
   </div>
   </div>
 </article>
+
+
+<nav id="article-nav">
+  
+  
+    <a href="/2021/05/14/MySQL%E7%B4%A2%E5%BC%95/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">MySQL索引</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -280,372 +530,33 @@
         </div>
         
         
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-MySQL索引" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-  
-  
-    <h1 itemprop="name">
-	
-	  <a class="article-title" href="/2021/05/14/MySQL%E7%B4%A2%E5%BC%95/">MySQL索引</a>
-	
-    </h1>
-  
-
-
-  
-  
-<a href="/2021/05/14/MySQL%E7%B4%A2%E5%BC%95/" class="archive-article-date">
-        <time datetime="2021-05-14T01:34:16.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-05-14</time>
-</a>
-
-  
-  
-    
-
-  
-  </header>
-  
-  <div class="article-entry" itemprop="articleBody">
-    
-    <h3 id="1、索引分类"><a href="#1、索引分类" class="headerlink" title="1、索引分类"></a>1、索引分类</h3><blockquote>
-<p>索引的作用</p>
-</blockquote>
-<ul>
-<li>提高查询速度</li>
-<li>确保数据的唯一性</li>
-<li>可以加速表和表之间的连接 , 实现表与表之间的参照完整性</li>
-<li>使用分组和排序子句进行数据检索时 , 可以显著减少分组和排序的时间</li>
-<li>全文检索字段进行搜索优化. </li>
-</ul>
-    
-    <a class="article-more-a" href="/2021/05/14/MySQL%E7%B4%A2%E5%BC%95/#more">more >></a>
-    
-    
-
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">MySQL</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-    
-
-    
-    <p class="article-more-link">
-      <a class="article-more-a" href="/2021/05/14/MySQL%E7%B4%A2%E5%BC%95/">阅读全文 >></a>
-    </p>
-    
-
-    
-    <div class="clearfix"></div>
-  </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4"><span class="toc-number">1.</span> <span class="toc-text">常用命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E5%B1%9E%E6%80%A7"><span class="toc-number">2.</span> <span class="toc-text">基本属性</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%87%E4%BB%B6%E5%86%85%E5%AE%B9%E6%9F%A5%E7%9C%8B"><span class="toc-number">3.</span> <span class="toc-text">文件内容查看</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Vim"><span class="toc-number">4.</span> <span class="toc-text">Vim</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86"><span class="toc-number">5.</span> <span class="toc-text">进程管理</span></a></li></ol>
+                    </div>
+                </span>
             </div>
         </div>
         
-        
     </div>
 </aside>
 
 
 
 
-  
-    <article id="post-MySQL事务" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-  
-  
-    <h1 itemprop="name">
-	
-	  <a class="article-title" href="/2021/05/13/MySQL%E4%BA%8B%E5%8A%A1/">MySQL事务</a>
-	
-    </h1>
-  
-
-
-  
-  
-<a href="/2021/05/13/MySQL%E4%BA%8B%E5%8A%A1/" class="archive-article-date">
-        <time datetime="2021-05-13T13:10:46.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-05-13</time>
-</a>
-
-  
-  
-    
-
-  
-  </header>
-  
-  <div class="article-entry" itemprop="articleBody">
-    
-    <h3 id="1、概述"><a href="#1、概述" class="headerlink" title="1、概述"></a>1、概述</h3><blockquote>
-<p> 什么是事务</p>
-</blockquote>
-<ul>
-<li>事务就是将一组SQL语句放在同一批次内去执行</li>
-<li>如果一个SQL语句出错,则该批次内的所有SQL都将被取消执行</li>
-<li>MySQL事务处理只支持InnoDB和BDB数据表类型  </li>
-</ul>
-    
-    <a class="article-more-a" href="/2021/05/13/MySQL%E4%BA%8B%E5%8A%A1/#more">more >></a>
-    
-    
-
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">MySQL</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-    
-
-    
-    <p class="article-more-link">
-      <a class="article-more-a" href="/2021/05/13/MySQL%E4%BA%8B%E5%8A%A1/">阅读全文 >></a>
-    </p>
-    
-
-    
-    <div class="clearfix"></div>
-  </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
 
 
 
 
-  
-    <article id="post-MySQL常用命令" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-  
-  
-    <h1 itemprop="name">
-	
-	  <a class="article-title" href="/2021/05/13/MySQL%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/">MySQL常用命令</a>
-	
-    </h1>
-  
-
-
-  
-  
-<a href="/2021/05/13/MySQL%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/" class="archive-article-date">
-        <time datetime="2021-05-13T12:32:39.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-05-13</time>
-</a>
-
-  
-  
-    
-
-  
-  </header>
-  
-  <div class="article-entry" itemprop="articleBody">
-    
-    <p>MySQL是现在流行的开源的，免费的关系型数据库。由瑞典MySQLAB 公司开发，目前属于 Oracle 旗下产品。</p>
-<p><strong>官网：</strong><a target="_blank" rel="noopener" href="https://www.mysql.com/">https://www.mysql.com/</a>  </p>
-    
-    <a class="article-more-a" href="/2021/05/13/MySQL%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/#more">more >></a>
-    
-    
-
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">MySQL</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-    
-
-    
-    <p class="article-more-link">
-      <a class="article-more-a" href="/2021/05/13/MySQL%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/">阅读全文 >></a>
-    </p>
-    
-
-    
-    <div class="clearfix"></div>
-  </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
 
 
 
 
-  
-    <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-  
-  
-    <h1 itemprop="name">
-	
-	  <a class="article-title" href="/2021/05/12/hello-world/">Hello World</a>
-	
-    </h1>
-  
-
-
-  
-  
-<a href="/2021/05/12/hello-world/" class="archive-article-date">
-        <time datetime="2021-05-12T08:10:11.559Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-05-12</time>
-</a>
-
-  
-  
-    
-
-  
-  </header>
-  
-  <div class="article-entry" itemprop="articleBody">
-    
-    <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-    
-    <a class="article-more-a" href="/2021/05/12/hello-world/#more">more >></a>
-    
-    
-
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-    
-
-    
-    <p class="article-more-link">
-      <a class="article-more-a" href="/2021/05/12/hello-world/">阅读全文 >></a>
-    </p>
-    
-
-    
-    <div class="clearfix"></div>
-  </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-  
 
 
           </div>
@@ -673,8 +584,8 @@
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
